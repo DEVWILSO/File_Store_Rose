@@ -55,8 +55,8 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             f"𝘑𝘶𝘴𝘵 𝘊𝘭𝘪𝘤𝘬 𝘵𝘩𝘦 𝘭𝘪𝘯𝘬 𝘵𝘰 𝘨𝘦𝘵 𝘺𝘰𝘶𝘳 𝘧𝘪𝘭𝘦𝘴!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("⚡️ Open Link ⚡️", url=share_link)],
-                 [InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/MD_Bots"),
-                  InlineKeyboardButton("🍿supp⊕rt gr⊕up", url="https://t.me/MD_Support_Group")]]
+                 [InlineKeyboardButton("🔊Bots Channel", url="https://t.me/MD_Bots"),
+                  InlineKeyboardButton("🍿support channel", url="https://t.me/MD_Support_Group")]]
             ),
             disable_web_page_preview=True
         )
@@ -78,19 +78,19 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             main_channel_username = (Config.LP_BTN_MAIN_CH_USRNM)
             main_btn_link = f"https://telegram.me/{main_channel_username}"
             file_name = message.caption
-            caption_z = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>⎝⎝✧MD Bots✧⎠⎠</a>"
-            caption_za = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>⎝⎝✧MD Bots✧⎠⎠</a>"
-            caption_zab = f"{file_name}\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_bots'>⎝⎝✧MD Bots✧⎠⎠</a>"
-            caption_zabi = f"{file_name}\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>⎝⎝✧ MD ᴅᴇᴠᴇʟᴏᴘᴇʀ✧⎠⎠</a>"
-            lazy_dev = f"+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>⎝⎝✧MD Bots✧⎠⎠</a>"
+            caption_z = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>✧MD Bots✧</a>"
+            caption_za = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>✧MD Bots✧</a>"
+            caption_zab = f"{file_name}\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_bots'>✧MD Bots✧</a>"
+            caption_zabi = f"{file_name}\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>✧ MD ᴅᴇᴠᴇʟᴏᴘᴇʀ✧</a>"
+            lazy_dev = f"+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>✧MD Bots✧</a>"
             lazypost_custom_template = f"{(Config.LP_CUSTOM_TEMPLATE)}\n\n{lazy_dev} ♥️"
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⎝⎝✧ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✧⎠⎠", url=share_link)],
+                [[InlineKeyboardButton("✧ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✧", url=share_link)],
                  [InlineKeyboardButton("⚡️✧ ɢᴇᴛ ʙᴀᴛᴄʜ ꜰɪʟᴇꜱ ✧⚡️", url=share_link)],
                 ]
             )
             main_btn=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⎝⎝✧ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✧⎠⎠", url=share_link)],
+                [[InlineKeyboardButton("✧ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✧", url=share_link)],
                  [InlineKeyboardButton("⚡️✧ ɢᴇᴛ ʙᴀᴛᴄʜ ꜰɪʟᴇꜱ ✧⚡️", url=share_link)],
                  [InlineKeyboardButton("•⊹٭𝚓𝚘𝚒𝚗 𝚖𝚊𝚒𝚗 𝚌𝚑𝚊𝚗𝚗𝚎𝚕٭⊹•", url=main_btn_link)]
                 ]
@@ -147,8 +147,8 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             f"𝘑𝘶𝘴𝘵 𝘊𝘭𝘪𝘤𝘬 𝘵𝘩𝘦 𝘭𝘪𝘯𝘬 𝘵𝘰 𝘨𝘦𝘵 𝘺𝘰𝘶𝘳 𝘧𝘪𝘭𝘦...",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("⚡️ Open Link ⚡️", url=share_link)],
-                 [InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/MD_Bots"),
-                  InlineKeyboardButton("🍿supp⊕rt gr⊕up", url="https://t.me/MD_Support_Group")]]
+                 [InlineKeyboardButton("🔊Bots Channel", url="https://t.me/MD_Bots"),
+                  InlineKeyboardButton("🍿support channel", url="https://t.me/MD_Support_Group")]]
             ),
             disable_web_page_preview=True
         )
@@ -164,19 +164,19 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             main_channel_username = (Config.LP_BTN_MAIN_CH_USRNM)
             main_btn_link = f"https://telegram.me/{main_channel_username}"
             file_name = message.caption
-            caption_z = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>⎝⎝✧MD Bots✧⎠⎠</a>"
-            caption_za = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>⎝⎝✧MD Bots✧⎠⎠</a>"
-            caption_zab = f"{file_name}\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>⎝⎝✧MD_Bots✧⎠⎠</a>"
-            caption_zabi = f"{file_name}\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>⎝⎝✧MD Bots✧⎠⎠</a>"
-            lazy_dev = f"+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>⎝⎝✧MD Bots✧⎠⎠</a>"
+            caption_z = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>✧MD Bots✧</a>"
+            caption_za = f"{file_name}\n\n༺ᴊᴏɪɴ @{lazypost_channel_username} ༻\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>✧MD Bots✧</a>"
+            caption_zab = f"{file_name}\n\n🦋・‥☆𝘼𝘿𝙈𝙞𝙉 𝙨𝙪𝙥𝙥𝙤𝙧𝙩☆‥・🦋\n╰┈➤・☆ @{lazypost_ch_admin_usrnm} \n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>✧MD_Bots✧</a>"
+            caption_zabi = f"{file_name}\n\n+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>✧MD Bots✧</a>"
+            lazy_dev = f"+> ᴛʜᴀɴᴋ ʏᴏᴜ <a href='https://telegram.me/MD_Bots'>✧MD Bots✧</a>"
             lazypost_custom_template = f"{(Config.LP_CUSTOM_TEMPLATE)}\n\n{lazy_dev} ♥️"
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⎝⎝✧ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✧⎠⎠", url=share_link)],
+                [[InlineKeyboardButton("✧ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✧", url=share_link)],
                  [InlineKeyboardButton("ミ★ GΞΓ FILΞ ★彡", url=share_link)],
                 ]
             )
             main_btn=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("⎝⎝✧ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✧⎠⎠", url=share_link)],
+                [[InlineKeyboardButton("✧ ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ ✧", url=share_link)],
                  [InlineKeyboardButton("ミ★ GΞΓ FILΞ ★彡", url=share_link)],
                  [InlineKeyboardButton("•⊹٭𝚓𝚘𝚒𝚗 𝚖𝚊𝚒𝚗 𝚌𝚑𝚊𝚗𝚗𝚎𝚕٭⊹•", url=main_btn_link)]
                 ]
