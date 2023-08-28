@@ -82,7 +82,7 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ Movie Channel ✧✧⎠⎠", url="https://t.me/MoviesDude_LinkZz")
+                        InlineKeyboardButton("⎝⎝✧✧ Movie Channel ✧✧⎠⎠", url="https://t.me/Team_MDL")
                     ]]))
         else :
             await cmd.reply_photo(photo=lazy_pic,
@@ -98,7 +98,7 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ Movie Channel ✧✧⎠⎠", url="https://t.me/MoviesDude_LinkZz")
+                        InlineKeyboardButton("⎝⎝✧✧ Movie Channel ✧✧⎠⎠", url="https://t.me/Team_MDL")
                     ]]))
            
     else:
@@ -349,7 +349,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("⚡️SФUЯCΞ CФDΞS ФF ß⊕Γ",
-                                             url="https://github.com/")
+                                             url="https://t.me/MD_ADMIN_TEXT_Bot")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
@@ -375,7 +375,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ Movie Channel ✧✧⎠⎠", url="https://t.me/MoviesDude_LinkZz")
+                        InlineKeyboardButton("⎝⎝✧✧ Movie Channel ✧✧⎠⎠", url="https://t.me/Team_MDL")
                     ]
                 ]
             )
@@ -395,7 +395,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ Movie Channel ✧✧⎠⎠", url="https://t.me/MoviesDude_LinkZz")
+                        InlineKeyboardButton("⎝⎝✧✧ Movie Channel ✧✧⎠⎠", url="https://t.me/Team_MDL")
                     ]
                 ]
             )
@@ -453,7 +453,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ Movie Channel ✧✧⎠⎠", url="https://t.me/MoviesDude_LinkZz")
+                        InlineKeyboardButton("⎝⎝✧✧ Movie Channel ✧✧⎠⎠", url="https://t.me/Team_MDL")
                     ]
                 ]
             )
@@ -473,7 +473,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("♥️Aß⊕ut Đ€V", callback_data="aboutdevs")
                     ],
                     [
-                        InlineKeyboardButton("⎝⎝✧✧ Movie Channel ✧✧⎠⎠", url="https://t.me/MoviesDude_LinkZz")
+                        InlineKeyboardButton("⎝⎝✧✧ Movie Channel ✧✧⎠⎠", url="https://t.me/Team_MDL")
                     ]
                 ]
             )
